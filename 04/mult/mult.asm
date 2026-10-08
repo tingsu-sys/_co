@@ -7,65 +7,38 @@
 // (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
 
 // Put your code here.
-// Runs an infinite loop that listens to the keyboard input.
-// When a key is pressed (any key), the program blackens the screen.
-// When no key is pressed, the program clears the screen.
-
-(FOREVER)
-// arr = SCREEN
-@SCREEN
-D=A
-@arr
-M=D
-
-// n=8192
-@8192
-D=A
-@n
-M=D
-// i = 0
-@i
+// int main() {
+//    int R0 = 3;
+//    int R1 = 5;
+// =>    int R2 = 0;
+@2
 M=0
-(LOOP)
-// if (i==n) goto ENDLOOP
-@i
+//    while (R0 > 0) {
+// => loop:
+(loop)
+// =>    if (R0 <= 0) goto exit1;
+@0
 D=M
-@n
-D=D-M
-@ENDLOOP
-D;JEQ
+@exit1
+D;JLE
 
-// if (*KBD != 0)
-@KBD
+// =>  R2 = R2 + R1;
+@1
 D=M
-@ELSE
-D;JEQ
+@2
+M=D+M
 
-// RAM[arr+i] = -1
-@arr
-D=M
-@i
-A=D+M
-M=-1
+// =>  R0 = R0 - 1;
+@0
+M=M-1
 
-@ENDIF
-0;JMP
-(ELSE)
-// RAM[arr+i] = 0
-@arr
-D=M
-@i
-A=D+M
-M=0
-
-(ENDIF)
-// i++
-@i
-M=M+1
-
-@LOOP
+//    printf("R0=%d R1=%d R2=%d\n", R0, R1, R2);
+// =>  goto loop;
+@loop
 0;JMP
 
-(ENDLOOP)
-@FOREVER
+// => exit1:
+(exit1)
+@exit1
 0;JMP
+// }
