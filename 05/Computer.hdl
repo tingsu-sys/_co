@@ -20,4 +20,28 @@ CHIP Computer {
 
     PARTS:
     // Put your code here:
+    // Instruction Memory: Fetches the instruction at the current PC address
+    ROM32K(
+        address=pc, 
+        out=instruction
+    );
+
+    // Central Processing Unit: Executes instructions, interfaces with memory
+    CPU(
+        inM=memOut, 
+        instruction=instruction, 
+        reset=reset, 
+        outM=outM, 
+        writeM=writeM, 
+        addressM=addressM, 
+        pc=pc
+    );
+
+    // Data Memory: Handles RAM, Screen, and Keyboard mapping
+    Memory(
+        in=outM, 
+        load=writeM, 
+        address=addressM, 
+        out=memOut
+    );
 }
