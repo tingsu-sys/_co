@@ -59,19 +59,25 @@ IC 設計的 EDA（電子設計自動化）與開源 AI 工具應用報告
 
 **AI 自製 EDA (Veryl2Chip)**
 
-GitHub 專案：ccc-eda/veryl2chip
+GitHub 專案：[ccc-eda/veryl2chip](https://github.com/ccc-eda/veryl2chip/
+)
 
-線上操作環境：Veryl2Chip Web Application
+線上操作環境：[Veryl2Chip Web Application](https://ccc-eda.github.io/veryl2chip/web/dist/index.html
+)
 
 **Nand2tetris 網頁專案 (Hack Computer)**
 
-GitHub 專案：ccc-js/hack-computer
+GitHub 專案：[ccc-js/hack-computer](https://github.com/ccc-js/hack-computer
+)
 
-線上 HDL 模擬器：Hack Computer HDL Simulator
+線上 HDL 模擬器：[Hack Computer HDL Simulator](https://ccc-js.github.io/hack-computer/dist/hdl.html
+)
 
 **電子書與課程**
 
-**EDA 電子書：** ccc-eda/eda-books
+**EDA 電子書：** [ccc-eda/eda-books](https://github.com/ccc-eda/eda-books/tree/main/book
+)
 
-**康乃爾大學 IC 設計課程講義 (ECE 5745)：** Cornell ECE 5745 Handouts
+**康乃爾大學 IC 設計課程講義 (ECE 5745)：** [Cornell ECE 5745 Handouts](https://www.csl.cornell.edu/courses/ece5745/handouts.html
+)
 
