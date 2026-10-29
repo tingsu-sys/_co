@@ -27,8 +27,7 @@ AI 自製 EDA (Veryl2Chip)
    線上操作環境：https://ccc-eda.github.io/veryl2chip/web/dist/index.html
 Nand2tetris 網頁專案 (Hack Computer)
 
-   GitHub 專案：https://github.com/ccc-js/hack-computer
-   線上 HDL 模擬器：https://ccc-js.github.io/hack-computer/dist/hdl.html
+   GitHub 專案：https://github.com/ccc-js/hack-computer線上 HDL 模擬器：https://ccc-js.github.io/hack-computer/dist/hdl.html
 EDA 電子書：https://github.com/ccc-eda/eda-books/tree/main/book
 康乃爾大學 IC 設計課程講義 (ECE 5745)：https://www.csl.cornell.edu/courses/ece5745/handouts.html
 
