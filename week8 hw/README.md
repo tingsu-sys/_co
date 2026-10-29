@@ -9,19 +9,19 @@ IC 設計的 EDA（電子設計自動化）與開源 AI 工具應用報告
 
 根據 EDA 電子書與頂尖學府（如康乃爾大學 IC 設計課程 ECE 5745）的架構，完整的 IC 設計流程（RTL to GDSII）主要包含以下核心環節：
 
-高階行為描述與模擬（Behavioral Simulation）：
+**高階行為描述與模擬（Behavioral Simulation）：** 
 
 使用硬體描述語言（HDL）定義電路邏輯，並透過測試平台（Testbench）驗證功能正確性。
 
-邏輯合成（Logic Synthesis）：
+**邏輯合成（Logic Synthesis）：**
 
 將抽象的高階語言轉換為基於特定製程庫（PDK）的標準閘級網表（Gate-level Netlist）。
 
-佈局與繞線（Place & Route, P&R）：
+**佈局與繞線（Place & Route, P&R）：**
 
 決定各個邏輯元件在晶片實體空間中的位置，並完成複雜的金屬導線連結。
 
-實體驗證與時序分析（Physical Verification & STA）：
+**實體驗證與時序分析（Physical Verification & STA）：**
 
 確保晶片符合製造廠的幾何設計規則（DRC）、網表一致性（LVS）以及最高工作時脈的時序要求。
 
@@ -35,9 +35,9 @@ IC 設計的 EDA（電子設計自動化）與開源 AI 工具應用報告
 
 心得與觀察：
 
-新型硬體描述語言 Veryl： 傳統的 Verilog 語法較為繁瑣且容易出錯。Veryl 借鏡了現代程式語言（如 Rust）的型別系統與模組化設計，讓硬體描述更具結構性與可讀性。
+**新型硬體描述語言 Veryl：** 傳統的 Verilog 語法較為繁瑣且容易出錯。Veryl 借鏡了現代程式語言（如 Rust）的型別系統與模組化設計，讓硬體描述更具結構性與可讀性。
 
-AI 與 EDA 的結合： 透過線上環境，可以體驗如何利用 AI 與自動化編譯流程，將高階的 Veryl 語法快速轉換、合成至底層的電路網表，展現了開源 EDA 工具在教學與快速原型開發上的巨大潛力。
+**AI 與 EDA 的結合：** 透過線上環境，可以體驗如何利用 AI 與自動化編譯流程，將高階的 Veryl 語法快速轉換、合成至底層的電路網表，展現了開源 EDA 工具在教學與快速原型開發上的巨大潛力。
 
 ## 2. Nand2tetris 網頁 HDL 模擬專案 (Hack Computer)
 
@@ -45,9 +45,9 @@ AI 與 EDA 的結合： 透過線上環境，可以體驗如何利用 AI 與自�
 
 心得與觀察：
 
-由底至上的硬體建構： Nand2tetris 專案帶領學習者從最基本的反相閘/反及閘（Nand Gate）出發，逐步建構出多工器（Mux）、算術邏輯單元（ALU）、暫存器組（RAM）乃至完整的 Hack CPU 與電腦系統。
+**由底至上的硬體建構：** Nand2tetris 專案帶領學習者從最基本的反相閘/反及閘（Nand Gate）出發，逐步建構出多工器（Mux）、算術邏輯單元（ALU）、暫存器組（RAM）乃至完整的 Hack CPU 與電腦系統。
 
-波形與控制訊號除錯： 透過網頁端的 HDL 模擬器，能夠直觀地觀察不同控制訊號（Control Lines）與時脈（Clock）觸發下，資料在暫存器與資料匯流排間的流動狀態。這對於理解「組合邏輯」與「循序邏輯」的差異至關重要。
+**波形與控制訊號除錯：** 透過網頁端的 HDL 模擬器，能夠直觀地觀察不同控制訊號（Control Lines）與時脈（Clock）觸發下，資料在暫存器與資料匯流排間的流動狀態。這對於理解「組合邏輯」與「循序邏輯」的差異至關重要。
 
 # 三、 結論
 
@@ -57,21 +57,21 @@ AI 與 EDA 的結合： 透過線上環境，可以體驗如何利用 AI 與自�
 
 # 四、 參考資料與連結
 
-AI 自製 EDA (Veryl2Chip)
+**AI 自製 EDA (Veryl2Chip)**
 
 GitHub 專案：ccc-eda/veryl2chip
 
 線上操作環境：Veryl2Chip Web Application
 
-Nand2tetris 網頁專案 (Hack Computer)
+**Nand2tetris 網頁專案 (Hack Computer)**
 
 GitHub 專案：ccc-js/hack-computer
 
 線上 HDL 模擬器：Hack Computer HDL Simulator
 
-電子書與課程
+**電子書與課程**
 
-EDA 電子書：ccc-eda/eda-books
+**EDA 電子書：** ccc-eda/eda-books
 
-康乃爾大學 IC 設計課程講義 (ECE 5745)：Cornell ECE 5745 Handouts
+**康乃爾大學 IC 設計課程講義 (ECE 5745)：** Cornell ECE 5745 Handouts
 
