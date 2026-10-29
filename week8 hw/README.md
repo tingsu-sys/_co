@@ -22,9 +22,11 @@ AI 與 EDA 的結合：透過線上環境，可以體驗如何利用 AI 與自�
 透過本次作業的文獻研讀與線上 EDA 工具的操作體驗，我們深刻體會到 EDA 在現代數位系統設計中不可動搖的地位。無論是透過 Nand2tetris 理解從基礎邏輯閘到計算機架構的建構過程，還是利用 Veryl2Chip 探索現代硬體描述語言與 AI 輔助工具的便利性，都讓我們對 IC 設計從抽象程式碼落實到實體硬體的全貌有了更清晰的認知。
 # 四、 參考資料與連結
 AI 自製 EDA (Veryl2Chip)
+
    GitHub 專案：https://github.com/ccc-eda/veryl2chip/
    線上操作環境：https://ccc-eda.github.io/veryl2chip/web/dist/index.html
 Nand2tetris 網頁專案 (Hack Computer)
+
    GitHub 專案：https://github.com/ccc-js/hack-computer
    線上 HDL 模擬器：https://ccc-js.github.io/hack-computer/dist/hdl.html
 EDA 電子書：https://github.com/ccc-eda/eda-books/tree/main/book
